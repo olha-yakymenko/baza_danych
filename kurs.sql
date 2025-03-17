@@ -9,5 +9,4 @@ BEGIN
 END;
 $$ LANGUAGE plpgsql;
 
--- Проверка работы курсора для клиентов
 SELECT * FROM clients_cursor();
